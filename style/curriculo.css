@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+:root {
+   --background-color: background: rgb(34,193,195);
+   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,53,253,1) 100%);
+  --hover-color: #0e5bf1;
+  --text-color: #f0f8ff;
+}
+
+body {
+  box-sizing: border-box;
+
+  background: var(--background-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.cabecalho {
+  display: flex;
+}
+
+.cabecalho__perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cabecalho__perfil__nome {
+  color: var(--text-color);
+  font-family: 'Pacifico', cursive;
+}
+
+.cabecalho__perfil__nome:hover {
+  color: var(--hover-color);
+  font-size: 20px;
+}
+
+.cabecalho__imagem__perfil {
+  width: 10%;
+  border-radius: 50%;
+  border: solid 4px var(--text-color);
+}
+
+.cabecalho__imagem__perfil:hover {
+  border: solid 4px var(--hover-color);
+}
+
+.cabecalho__menu {
+  margin: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.cabecalho__menu__link {
+  padding: 3px;
+  font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 10%;
+  color: var(--text-color);
+}
+
+.cabecalho__menu__link:hover {
+  color: var(--hover-color);
+  border: var(--hover-color);
+}
+
+.conteudo__titulo {
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  color: var(--text-color);
+}
+.main__icon {
+  width: 2%;
+  color: var(--text-color);
+  
+}
+
+.conteudo {
+  display: flex;
+}
+.conteudo__texto {
+  padding: 20px;
+  font-family: 'Pacifico', cursive;
+  color: var(--text-color);
+}
+
+
+
+
+.lista__item{
+  font-family: 'Pacifico', cursive;
+  color: var(--text-color);
+  list-style-type: none;
+}

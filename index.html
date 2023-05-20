@@ -4,11 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style/style.css" />
     <title>Portifolio</title>
   </head>
   <body>
-    <header></header>
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">+Sobre</a>
+      </nav>
+    </header>
     <main class="apresentacao">
       <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">
@@ -22,16 +27,42 @@
           #Pokémon"
         </p>
         <div class="apresentacao__links">
-          <a class="apresentacao__links__link" href="">Instagram</a>
-          <a class="apresentacao__links__link" href="">GitHub</a>
+          <h2 class="apresentacao__links__subtitulo">acesse também :</h2>
+          <a class="apresentacao__links__link" href=""
+            ><img
+              class="apresentacao__links__icons"
+              src="./img/icons/pokemon-go.png"
+              alt=""
+            />
+            Habilidades</a
+          >
+          <a class="apresentacao__links__link" href="">
+            <img
+              class="apresentacao__links__icons"
+              src="./img/icons/egg.png"
+              alt=""
+            />
+            Evoluções</a
+          >
+          <a class="apresentacao__links__link" href="">
+            <img
+              class="apresentacao__links__icons"
+              src="./img/icons/bullbasaur (1).png"
+              alt=""
+            />
+            Curiosidades</a
+          >
         </div>
       </section>
 
       <img
+        class="buba__img"
         src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
         alt=""
       />
     </main>
-    <footer></footer>
+    <footer class="rodape">
+      <p>Feito por <strong>Desenvolvido por Maestro</strong></p>
+    </footer>
   </body>
 </html>
