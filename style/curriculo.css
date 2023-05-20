@@ -73,6 +73,11 @@ body {
   font-family: 'Pacifico', cursive;
   color: var(--text-color);
 }
+
+.conteudo__titulo:hover{
+    color: var(--hover-color);
+}
+
 .main__icon {
   width: 2%;
   color: var(--text-color);
@@ -81,6 +86,7 @@ body {
 
 .conteudo {
   display: flex;
+  
 }
 .conteudo__texto {
   padding: 20px;
@@ -95,4 +101,9 @@ body {
   font-family: 'Pacifico', cursive;
   color: var(--text-color);
   list-style-type: none;
+}
+
+
+.teste{
+  margin:20px 0 0 0 ;
 }
